@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-c2l-gcloud"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "my_c2l_gcloud"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cloud-tpu-client = "^0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
